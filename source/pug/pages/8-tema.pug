@@ -52,12 +52,67 @@
         .subtitulo-guion
             h2 8.1 Métodos área velocidad
         
-        .row.justify-content-center.mt-5
-            .col-12.col-md-10
-                .embed-responsive.embed-responsive-16by9
-                    iframe.embed-responsive-item(width='560', height='315', src='https://www.youtube.com/embed/DInTpLJycJ0', frameborder='0', allow='accelerometer; encrypted-media; gyroscope; picture-in-picture', allowfullscreen='')
-        
-        p.text-center xxxxxxxxxxxxXXXXXXXXXXXXXXVideo ProducciónXXXXXXXXXXXXXXXXXXXXXxxxxxxxxxxxxxxxxxxxx
+        p Dado que el caudal es función del área de la sección ocupada por el agua y la velocidad media del flujo, este procedimiento se basa en la determinación de estas variables. Este sistema de aforo es el de mayor uso y requiere que el flujo tenga un comportamiento laminar y que las líneas de flujo sean normales a la sección transversal de aforo.
+
+        p El caudal en una corriente de agua es función del área de la sección de aforos y de la velocidad media del flujo y se obtiene mediante el producto de estas dos variables.
+
+        h2.my-5.text-center Q=Av
+
+        p Si la geometría del perfil de la sección de aforos no se modifica, la velocidad mantiene su comportamiento horizontal y en profundidad, por el contrario, si la geometría cambia se altera la relación nivel - área, en consecuencia, la velocidad cambia su comportamiento.
+
+        p El método de área-velocidad se realiza con diferentes métodos de aforo:
+        .row 
+            .col-10
+                .list.align-items-start.mt-2
+                    .list__item
+                        .list__item__icon
+                            img.img-a(src="assets/images/pages/v1.svg").img-fluid  
+                    .list__txt
+                        p Molinete Hidrométrico (vadeo, suspensión, angular, bote cautivo, lancha en movimiento)
+                .list.align-items-start.mt-2
+                    .list__item
+                        .list__item__icon
+                            img.img-a(src="assets/images/pages/v1.svg").img-fluid  
+                    .list__txt
+                        p Aforo con Flotadores
+                .list.align-items-start.mt-2
+                    .list__item
+                        .list__item__icon
+                            img.img-a(src="assets/images/pages/v1.svg").img-fluid  
+                    .list__txt
+                        p Aforo ADCP (Acoustic Doppler Current Profiler)
+
+        p La medición de caudales a través del método área-velocidad, se determina a través de la selección de número de vértices, determinación del ancho, determinación de la profundidad, cálculo del área, medición de la velocidad, cálculo del área y caudal. Lo anterior se puede representar mediante la siguiente imagen:
+
+
+        p La profundidad del flujo en la sección transversal se mide en las verticales mediante una varilla o hilo de sondeo. Al tiempo que se mide la profundidad, se efectúan observaciones de la velocidad mediante un molinete en uno o más puntos de la vertical. Las anchuras, profundidades y velocidades medidas permiten calcular el caudal para cada segmento de la sección transversal. La suma de estos caudales parciales será el caudal total. (OMM, 2011).
+
+        p.mt-5 #[b Molinete Hidrométrico]
+
+        p Teniendo en cuenta las diferentes alternativas de medir el caudal, se determina el tipo de aforo con molinete hidrométrico (vadeo, suspensión, angular, bote cautivo, lancha en movimiento) que mejor se ajuste a las condiciones existentes, en el momento de la campaña de monitoreo, específicamente la magnitud de la profundidad, el ancho, la velocidad, la disposición de estructuras de apoyo como puentes o tarabitas y el tipo de régimen de caudales predominante.
+
+        p.mt-5 #[b Aforo por vadeo]
+        p Cuando las condiciones del flujo (profundidad y/o velocidad) presentan amenaza para los operarios y equipos, es necesario realizar las mediciones desde un puente o una tarabita. Aquí los equipos van suspendidos desde un malacate o torno a través de un cable coaxial, que adicionalmente sirve para medir la profundidad en las diferentes abscisas de medición.
+
+        p.mt-5 #[b Aforo en bote cautivo]
+        p Aplicable en ríos o canales medianos, donde es posible tender una manila o cable de orilla a orilla, que sirve de apoyo a la embarcación para contrarrestar el empuje de la corriente.
+
+        p.mt-5 #[b Aforo con Flotadores]
+
+        p Se utiliza cuando se requiere medir en forma rápida el caudal en una corriente que presenta una lámina de pocos centímetros de profundidad, cuando se esté en presencia de grandes cantidades de material en suspensión, o cuando deba efectuarse una medición del caudal en un período muy breve, para lo cual se mide la velocidad superficial a lo ancho del cauce utilizando flotadores especialmente diseñados y suministrados para este efecto.
+
+
+        p.mt-5 #[b Aforo ADCP (Acoustic Doppler Current Profiler)]
+
+        p Se utiliza para medir el caudal en ríos grandes o pequeños, sin rocas grandes que permita el desplazamiento horizontal del equipo para medir el caudal.
+
+
+        p Los instrumentos ADCP, basados en el efecto Doppler, pueden instalarse en una embarcación en movimiento. El instrumento mide simultáneamente la velocidad y profundidad del agua y la trayectoria de la embarcación para calcular el caudal. Este método permite calcular el caudal parcial a medida que la embarcación atraviesa el río. El resultado de una medición no es suficiente para proporcionar un valor exacto del flujo/caudal; únicamente proporciona una imagen instantánea del flujo. Para conseguir un valor más exacto del caudal del río es importante calcular el promedio de varias travesías. Para calcular el caudal en un emplazamiento se recomienda efectuar como mínimo cuatro travesías. (OMM, 2011)
+
+        p El ADCP utiliza el efecto Doppler transmitiendo sonido a una frecuencia fija y escuchando los ecos retornados por los reflectores presentes en el agua, como pequeñas partículas o plancton que reflejan el sonido hacia el ADCP, los cuales se mueven a la misma velocidad horizontal del agua. La siguiente imagen representa una medición mediante el método ADCP
+
+        p Cuando el sonido enviado por el ADCP llega a los reflectores, este se desplaza a una mayor frecuencia debido al efecto Doppler, este desplazamiento frecuencial es proporcional a la velocidad relativa entre el ADCP y los reflectores. Parte de este sonido desplazado es reflejado hacia el ADCP donde se recibe desplazado una segunda vez. Los archivos generados por el equipo pueden llevarse las gráficas a impresión a Excel mediante el software del equipo, así como la tabla de trayectos para plotear el aforo.
+
     
     br#metodos2
 
