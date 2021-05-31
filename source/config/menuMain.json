@@ -117,7 +117,7 @@
     "id": 7,
     "icon": "fa fa-file-text",
     "slug": "toma",
-    "title": "7. Toma de muestras de agua",
+    "title": "7. Reconocimiento de material de laboratorio para análisis físicos químicos y microbiológico de las muestras",
     "breadcrumb": ["Inicio","toma"],
     "path": "pages/7-tema.html",
     "submenu": [
@@ -174,13 +174,13 @@
       {
         "icon": "fa fa-file-text",
         "slug": "toma1",
-        "title": "9.2 metodo de muestreo",
+        "title": "9.2 Metodo de muestreo",
         "anchor": "metodos3"
       },
       {
         "icon": "fa fa-file-text",
         "slug": "toma1",
-        "title": "9.3 Tecnicas de muestreo",
+        "title": "9.3 Técnicas de muestreo",
         "anchor": "tecnicas"
       },
       {
@@ -236,7 +236,7 @@
       {
         "icon": "fa fa-file-text",
         "slug": "parametros1",
-        "title": "11.1 Parámetros físico, químicos y biológicos del suelo",
+        "title": "11.1 Parámetros físicos, químicos y biológicos del suelo",
         "anchor": "parametros2"
       }
     ]
